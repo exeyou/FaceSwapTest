@@ -1,0 +1,21 @@
+<!-- upload_form.html (Frontend HTML Code) -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Swap API</title>
+</head>
+<body>
+    <h1>Face Swap via URLs</h1>
+    <form method="POST" action="/swap">
+        <label for="target_url">Target Image URL:</label><br>
+        <input type="text" id="target_url" name="target_url" placeholder="Enter target image URL"><br><br>
+
+        <label for="swap_url">Swap Image URL:</label><br>
+        <input type="text" id="swap_url" name="swap_url" placeholder="Enter swap image URL"><br><br>
+
+        <input type="submit" value="Swap Faces">
+    </form>
+</body>
+</html>
